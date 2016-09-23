@@ -1,0 +1,36 @@
+{
+  "_id": {
+    "$oid": "5427b2749f8c6d41306aeaa9"
+  },
+  "ident": "7f3527b2-468b-11e4-9ee4-0a0b6e7c3e9e",
+  "timestamp": {
+    "$date": "2014-09-28T07:02:12.840+0000"
+  },
+  "normalized": true,
+  "payload": "{\"pattern\": \"unknown\", \"time\": \"2014-09-28 03:02:27\", \"filename\": null, \"source\": [\"109.111.98.88\", 3337], \"request_raw\": \"GET /tmUnblock.cgi HTTP/1.1\", \"request_url\": \"/tmUnblock.cgi\"}",
+  "channel": "glastopf.events"
+}
+{
+"_id":{
+"$oid": "5427b81e9f8c6d41306aeaab"
+},
+"ident": "eb030eb8-3c69-11e4-9ee4-0a0b6e7c3e9e",
+"timestamp":{
+"$date": "2014-09-28T07:26:22.730+0000"
+},
+"normalized": true,
+"payload": "{\"attackerPort\": 3694, \"victimPort\": 3389, \"victimIP\": \"172.31.13.124\", \"attackerIP\": \"173.193.110.136\", \"connectionType\": \"initial\"}",
+"channel": "amun.events"
+} {
+"_id":{
+"$oid": "5427bda09f8c6d41306aeaad"
+},
+"ident": "eb030eb8-3c69-11e4-9ee4-0a0b6e7c3e9e",
+"timestamp":
+{
+"$date": "2014-09-28T07:49:52.644+0000"
+},
+"normalized": true,
+"payload": "{\"attackerPort\": 44153, \"victimPort\": 23, \"victimIP\": \"172.31.13.124\", \"attackerIP\": \"111.179.86.236\", \"connectionType\": \"initial\"}",
+"channel": "amun.events"
+}
